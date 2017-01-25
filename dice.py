@@ -53,3 +53,5 @@ def throw_polyhedral_die(num_sides):
         return throw_polyhedral_die(num_sides) # We can make this memory efficient by passing the already constructed program
     else:
         return roll_result
+      
+print throw_octahedral_die()
